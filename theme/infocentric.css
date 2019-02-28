@@ -1,0 +1,292 @@
+/**
+ * Infocentric documentation markdown theme for Typora editor (https://www.typora.io/)
+ *
+ * MIT License
+ *
+ * Copyright (c) 2016 Istvan Farkas <istvan.farkas@infocentric.ch>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ **/
+@font-face {
+  font-family: "Malgun Gothic Semilight";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Malgun Gothic"), url("./infocentric/MALGUNSL.TTF");
+}
+
+@font-face {
+  font-family: "Malgun Gothic Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Malgun Gothic"), url("./infocentric/MALGUN.TTF");
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Malgun Gothic Semilight", sans-serif;
+  font-weight: 100;
+  color: rgb(30, 30, 30);
+  line-height: 1.6;
+}
+
+#write {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 30px;
+  padding-bottom: 100px;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  margin: 1.5rem 0 0;
+  padding: 1rem 0 0.5rem;
+  font-weight: normal;
+  color: black;
+}
+
+h2:after,
+h3:after,
+h4:after,
+h5:after,
+h6:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background-color: rgb(153, 204, 51);
+}
+
+h5:after,
+h6:after {
+  height: 2px;
+}
+
+h1 {
+  position: relative;
+  display: block;
+  margin: 4rem 0 0;
+  padding: 2rem 0 1rem;
+  font-family: "Malgun Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+
+h1:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -2.65rem;
+  left: -2.5rem;
+  width: 9rem;
+  height: 1rem;
+  background-image: url("./infocentric/infocentric.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+h1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -4rem;
+  right: 0;
+  width: 4rem;
+  height: 4rem;
+  background-image: url("./infocentric/ic.svg");
+  background-repeat: no-repeat;
+  background-size: 19rem;
+  background-position: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 1.475rem;
+}
+h4 {
+  font-size: 1.35rem;
+}
+h5 {
+  font-size: 1.225rem;
+}
+h6 {
+  font-size: 1.1rem;
+}
+
+strong {
+  font-family: "Malgun Gothic", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: rgb(112, 170, 198);
+}
+
+ul li {
+  list-style: none;
+  position: relative;
+}
+
+ul li:not(.task-list-item):before {
+  position: absolute;
+  left: -1.8rem;
+  top: -0.1rem;
+  content: "—";
+  font-family: "Malgun Gothic", sans-serif;
+  font-weight: 400;
+  color: rgb(153, 204, 51);
+}
+
+.md-fences,
+.mathjax-block,
+code {
+  font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono",
+    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace;
+  font-size: 83%;
+  color: rgb(21, 68, 76);
+  background-color: rgb(245, 245, 245);
+}
+
+.md-fences,
+.mathjax-block {
+  padding: 1rem;
+  line-height: 1.4;
+}
+
+.mathjax-block {
+  margin-top: 1rem;
+}
+
+code {
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.1rem;
+  background-color: rgba(179, 228, 250, 0.15);
+}
+
+table tr th,
+table tr td {
+  padding: 0.7rem 0.5rem 0.5rem 0;
+}
+
+table tr th {
+  vertical-align: bottom;
+  font-family: "Malgun Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+table tr td {
+  font-size: inherit;
+  vertical-align: top;
+  border-top: 1px solid rgb(214, 235, 173);
+}
+
+table tr:last-child td {
+  margin-bottom: 30px;
+}
+
+blockquote {
+  position: relative;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  background-color: rgb(153, 204, 51);
+  border-left: 1rem solid rgb(0, 0, 0);
+}
+
+#write pre.md-meta-block {
+  padding: 1rem;
+  max-width: 80%;
+  font-size: 0.7rem;
+  color: rgb(115, 153, 38);
+  background-color: rgba(186, 194, 198, 0.05);
+  border-bottom: 1px dashed rgb(186, 194, 198);
+}
+
+.md-toc,
+.md-toc-content {
+  margin: 0;
+  padding: 0;
+}
+
+.md-toc-content {
+  padding: 1rem 0;
+}
+
+.md-toc-item {
+  padding: 0.4rem 0;
+  border-bottom: 1px dotted rgb(214, 235, 173);
+}
+
+.md-toc-h1 .md-toc-inner,
+.md-toc-h2 .md-toc-inner,
+.md-toc-h3 .md-toc-inner,
+.md-toc-h4 .md-toc-inner,
+.md-toc-h5 .md-toc-inner,
+.md-toc-h6 .md-toc-inner {
+  margin-left: 0;
+}
+
+.md-toc-h1 {
+  display: none;
+}
+
+.md-toc-h2 {
+  font-size: 1.1rem;
+  padding-left: 0;
+}
+
+.md-toc-h3 {
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.md-toc-h4 {
+  font-size: 0.9rem;
+  padding-left: 2rem;
+}
+
+.md-toc-h5 {
+  font-size: 0.8rem;
+  padding-left: 3rem;
+}
+
+.md-toc-h6 {
+  font-size: 0.775rem;
+  padding-left: 4rem;
+}
+
+a.md-toc-inner {
+  color: rgb(0, 0, 0);
+}
