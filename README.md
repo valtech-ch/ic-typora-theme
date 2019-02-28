@@ -6,18 +6,19 @@ A corporate Infocentric theme for the [Typora](https://typora.io/) free inline m
 
 ## Motivation
 
-Because I'm so used to write Markdown in my Jira tickets, confluence and README files, I write all my notes, reminders, tutorials, documentation and alike in MArkdown with [**Typora**](https://typora.io/).
+Because I'm so used to write markdown in my Jira tickets, confluence and README files, I write all my notes, reminders, tutorials, documentation and alike in markdown with [**Typora**](https://typora.io/).
 
 And it hurts me quite deeply when I have to share a document with a customer and have to rewrite my text in Word or any other text processing software. Also I think it's important to deliver nice and professional-looking corporate documents to our customers or partners.
 
-However, it should be quick and easy to do and [**Typora**](https://typora.io/), which is one of the rare free, cross-platform and full-featured Markdown editors out there, provides a very useful HTML/CSS-based theming engine.
+However, it should be quick and easy to do and [**Typora**](https://typora.io/), which is one of the rare free, cross-platform and full-featured markdown editors out there, provides a very useful HTML/CSS-based theming engine.
 
-So, here it is: a corporate Infocentric theme make your Markdown documents look nice and professional.
+So, here it is: a corporate Infocentric theme make your markdown documents look nice and professional.
 
 Of course, [PDF export](./assets/ic-doc-specimen.pdf) is supported as well.
 
-## Examples
-Please have a look in the [examples](./examples) folder for some sample Markdown documents.
+## Examples
+
+Please have a look in the [examples](./examples) folder for some sample markdown documents.
 
 ## Installation
 
