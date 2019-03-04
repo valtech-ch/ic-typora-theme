@@ -1,4 +1,4 @@
-[![Latest Release](https://img.shields.io/github/release/infocentric/ic-typora-theme.svg)](.//ic-typora-theme/releases/latest)
+[![Latest Release](https://img.shields.io/github/release/infocentric/ic-typora-theme.svg)](https://github.com/infocentric/ic-typora-theme/releases/latest)
 [![MIT license](https://img.shields.io/github/license/infocentric/ic-typora-theme.svg)](http://opensource.org/licenses/MIT)
 # ic-typora-theme
 
