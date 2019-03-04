@@ -1,3 +1,5 @@
+[![Latest Release](https://img.shields.io/github/release/infocentric/ic-typora-theme.svg)](releases/latest)
+[![MIT license](https://img.shields.io/github/license/infocentric/ic-typora-theme.svg)](http://opensource.org/licenses/MIT)
 # ic-typora-theme
 
 A corporate Infocentric theme for the [Typora](https://typora.io/) free inline markdown editor.
@@ -27,7 +29,7 @@ Please have a look in the [examples](./examples) folder for some sample markdown
    - On mac: `Typora > Preferences`
    - On WIndows: `File > Preferences`
 3. Click the "Open Theme Folder" button: the `themes` folder opens in your file system
-4. Download [ic-typora-theme.zip](./ic-typora-theme.zip) and copy its content to Typora's `themes` folder
+4. Download the latest release [ic-typora-theme.zip](.//ic-typora-theme/releases/latest) and copy its content to Typora's `themes` folder
 5. You should have the `infocentric.css` file and the `infocentric folder` lying next to the other themes' CSS files and folders:
 
    ![](./assets/themes-folder.png)
@@ -42,7 +44,7 @@ Please note that the theme assumes you have exactly one `Heading 1` at the begin
 
 ### Note about IC corporate font
 
-You must have the Malgun font installed on your system for the theme to be complete. Infocentric employees should have it already installed on their machines. If that's not the case, please contact your Chief Corporate Officer 😋
+You must have the Malgun font installed on your system for the theme to be complete. Infocentric employees should have it already installed on their machines. If that's not the case, please contact your Chief Marketing Officer 😋
 
 The `Malgun Gothic` font family can be found on Microsoft's font library: https://docs.microsoft.com/en-us/typography/font-list/malgun-gothic
 
@@ -57,7 +59,7 @@ $ cd ic-typora-theme
 $ ln -s ../../pre-commit.sh .git/hooks/pre-commit
 ```
 
-For now, the script is dumb and updates the zip for every change done in a commit. Ideally ut should only do it when a file changed in the `theme` folder. Also, there is no Windows version of the script...
+For now, the script is dumb and updates the zip for every change done in a commit. Ideally you should only do it when a file changed in the `theme` folder. Also, there is no Windows version of the script...
 
 ### Questions or feature request
 
