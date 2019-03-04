@@ -29,7 +29,7 @@ Please have a look in the [examples](./examples) folder for some sample markdown
    - On mac: `Typora > Preferences`
    - On WIndows: `File > Preferences`
 3. Click the "Open Theme Folder" button: the `themes` folder opens in your file system
-4. Download the latest release [ic-typora-theme.zip](.//ic-typora-theme/releases/latest) and copy its content to Typora's `themes` folder
+4. Download the latest release [ic-typora-theme.zip](.//releases/latest) and copy its content to Typora's `themes` folder
 5. You should have the `infocentric.css` file and the `infocentric folder` lying next to the other themes' CSS files and folders:
 
    ![](./assets/themes-folder.png)
@@ -50,19 +50,8 @@ The `Malgun Gothic` font family can be found on Microsoft's font library: https:
 
 ## Contribute
 
-### Build zip on pre-commit
-
-You can link the `pre-commit.sh` script to your local pre-commit hooks so that it automatically updates the zip file when a change occurs:
-
-```bash
-$ cd ic-typora-theme
-$ ln -s ../../pre-commit.sh .git/hooks/pre-commit
-```
-
-For now, the script is dumb and updates the zip for every change done in a commit. Ideally you should only do it when a file changed in the `theme` folder. Also, there is no Windows version of the script...
+Please feel free to contribute and submit pull requests!
 
 ### Questions or feature request
 
 Contact [istvan.farkas@infocentric.ch](mailto:istvan.farkas@infocentric.ch)
-
-PRs welcome !
