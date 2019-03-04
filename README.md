@@ -29,7 +29,7 @@ Please have a look in the [examples](./examples) folder for some sample markdown
    - On mac: `Typora > Preferences`
    - On WIndows: `File > Preferences`
 3. Click the "Open Theme Folder" button: the `themes` folder opens in your file system
-4. Download the latest release [ic-typora-theme.zip](.//releases/latest) and copy its content to Typora's `themes` folder
+4. Download the latest release [ic-typora-theme.zip](https://github.com/infocentric/ic-typora-theme/releases/latest) and copy its content to Typora's `themes` folder
 5. You should have the `infocentric.css` file and the `infocentric folder` lying next to the other themes' CSS files and folders:
 
    ![](./assets/themes-folder.png)
